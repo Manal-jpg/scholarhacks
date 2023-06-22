@@ -42,7 +42,7 @@ const HomeFeature: FC = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={5}>
             <Box sx={{ position: 'relative' }}>
-              <Image src="/images/home-feature.png" width={650} height={678} quality={97} alt="Feature img" />
+              <Image src="/images/logo.png" width={600} height={678} quality={97} alt="Feature img" />
               <Box
                 sx={{
                   position: 'absolute',
@@ -58,25 +58,25 @@ const HomeFeature: FC = () => {
                 }}
               >
                 <Typography variant="h5" sx={{ mb: 1 }}>
-                  Lorem ipsum dolor
+                  Gain experience in:
                 </Typography>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    UI/UI Design
+                    General programming
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={100} order={1} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Mobile Development
+                    College Preparation
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={100} order={2} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Web Development
+                    Critical Thinking
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={100} order={3} />
                 </Box>
               </Box>
 
@@ -103,9 +103,9 @@ const HomeFeature: FC = () => {
                     flexDirection: 'column',
                   }}
                 >
-                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography>
+                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}> Boost your knowledge</Typography>
                   <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
-                    Lorem ipsum
+                    Study with us
                   </Typography>
                   <Box
                     sx={{
@@ -118,7 +118,7 @@ const HomeFeature: FC = () => {
                     }}
                   >
                     <Typography variant="h4" sx={{ color: '#32dc88' }}>
-                      75%
+                      100%
                     </Typography>
                     <CircularProgress
                       sx={{ position: 'absolute', color: 'divider' }}
@@ -131,7 +131,7 @@ const HomeFeature: FC = () => {
                       disableShrink
                       thickness={2}
                       variant="determinate"
-                      value={75}
+                      value={100}
                       size={85}
                       sx={{ transform: 'rotate(96deg) !important', color: '#32dc88', position: 'absolute' }}
                     />

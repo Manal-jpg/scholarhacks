@@ -18,16 +18,16 @@ interface ExpItemProps {
 
 const exps: Array<Exp> = [
   {
-    label: 'Students',
-    value: '10K+',
+    label: 'Mentors',
+    value: '10+',
   },
   {
     label: 'Quality Course',
-    value: '20+',
+    value: '5',
   },
   {
-    label: 'Experience Mentors',
-    value: '10+',
+    label: 'Course Duration',
+    value: '10 days',
   },
 ]
 
@@ -83,7 +83,7 @@ const HomeHero: FC = () => {
                       backgroundColor: 'unset',
                     }}
                   >
-                    Improve{' '}
+                    Hack{' '}
                     <Box
                       sx={{
                         position: 'absolute',
@@ -113,7 +113,7 @@ const HomeHero: FC = () => {
                       },
                     }}
                   >
-                    Skill
+                    way
                     <svg version="1.1" viewBox="0 0 3183 3072">
                       <g id="Layer_x0020_1">
                         <path
@@ -132,13 +132,13 @@ const HomeHero: FC = () => {
                     </svg>
                   </Typography>{' '}
                   <br />
-                  with Different Way
+                  through the college admissions process
                 </Typography>
               </Box>
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
                 <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
                   {
-                    "Let's take an online course to improve your skills in a different way, you can set your own study time according to your learning speed. So you san study comfortable and absorb tge material easily."
+                    'Unleash your potential! Join our 10-day coding and college admissions prep course. Enhance coding skills, gain an edge in admissions, and connect with peers. Affordable, expert-led, and limitless opportunities await. Enroll now!'
                   }
                 </Typography>
               </Box>
@@ -202,7 +202,7 @@ const HomeHero: FC = () => {
               </Box>
             </Box>
             <Box sx={{ lineHeight: 0 }}>
-              <Image src="/images/home-hero.jpg" width={775} height={787} alt="Hero img" />
+              <Image src="/images/logo.png" width={775} height={787} alt="Hero img" />
             </Box>
           </Grid>
         </Grid>

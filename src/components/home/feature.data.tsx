@@ -12,23 +12,27 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Enhanced Coding Skills',
+    description:
+      'Our 10-day coding course sharpens programming abilities through hands-on projects and expert guidance, improving proficiency in coding languages and providing practical experience.',
     icon: <ArtTrackIcon />,
   },
   {
     title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description:
+      'Our 10-day coding and college admissions preparation course offers excellent value at an affordable price. Gain valuable skills and a competitive advantage without straining your budget',
     icon: <AttachMoneyIcon />,
   },
   {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Comprehensive College Application Support',
+    description:
+      'The course offers guidance in writing personal statements, interview preparation, understanding admissions criteria, and strategic college selection to increase admission chances.',
     icon: <LocalLibraryIcon />,
   },
   {
-    title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Networking and Collaboration',
+    description:
+      'Participants connect with like-minded peers, fostering collaborations, sharing resources, and building a supportive network for future academic and professional endeavors.',
     icon: <ContactSupportIcon />,
   },
 ]

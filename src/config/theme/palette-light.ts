@@ -2,15 +2,15 @@ import { PaletteOptions } from '@mui/material'
 import { grey, common } from '@mui/material/colors'
 
 const palette: PaletteOptions = {
-  mode: 'light',
+  mode: 'dark',
   background: {
-    default: '#f2f5f5', //'#fdfdfd',
-    paper: common.white,
+    default: grey[900],
+    paper: '#222128',
   },
   text: {
-    primary: grey[900],
-    secondary: '#717171', // grey[700],
-    disabled: grey[500],
+    primary: grey[100],
+    secondary: grey[200],
+    disabled: grey[300],
   },
 }
 
